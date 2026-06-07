@@ -1,0 +1,18 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'ao.darknet.tunnel'
+    compileSdk 35
+
+    buildFeatures { buildConfig true }
+
+    defaultConfig {
+        applicationId 'ao.darknet.tunnel'
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName '1.0.0'
+        // URL do seu dashboard/API. Altere antes de compilar.
+        buildConfigField 'String', 'DASHBOARD_URL', '"https://dashboard.darknetao.com/api/v1/app-config"'
+    }
+}
