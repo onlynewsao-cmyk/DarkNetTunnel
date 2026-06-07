@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.DarkNetTunnel" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#060606</item>
+        <item name="android:navigationBarColor">#060606</item>
+        <item name="android:colorAccent">#D6A64B</item>
+    </style>
+</resources>

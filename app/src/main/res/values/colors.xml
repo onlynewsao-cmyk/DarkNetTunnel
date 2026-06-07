@@ -1,0 +1,7 @@
+<resources>
+    <color name="dn_black">#060606</color>
+    <color name="dn_card">#15100C</color>
+    <color name="dn_gold">#D6A64B</color>
+    <color name="dn_gold_dark">#8A5A19</color>
+    <color name="dn_text">#F7E8C8</color>
+</resources>

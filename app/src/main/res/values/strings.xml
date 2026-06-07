@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DarkNet Tunnel</string>
+    <string name="vpn_permission_reason">DarkNet Tunnel precisa criar uma VPN local segura para encaminhar o tráfego.</string>
+</resources>
