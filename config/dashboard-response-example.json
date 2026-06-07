@@ -1,0 +1,47 @@
+{
+  "message": "Servidores atualizados pela Dark Net AO",
+  "forceUpdate": false,
+  "updateUrl": "https://darknetao.com/download",
+  "servers": [
+    {
+      "id": "free-ao-1",
+      "name": "Angola Free 01",
+      "country": "Angola",
+      "host": "free1.seu-dominio.com",
+      "port": 443,
+      "mode": "TLS",
+      "plan": "FREE",
+      "latencyMs": 54,
+      "sni": "cdn.seu-dominio.com",
+      "payload": "CONNECT [host_port] HTTP/1.1[crlf]Host: [host][crlf]User-Agent: DarkNetTunnel[crlf][crlf]"
+    },
+    {
+      "id": "premium-v2ray-1",
+      "name": "Europa Premium V2Ray",
+      "country": "Portugal",
+      "host": "premium1.seu-dominio.com",
+      "port": 443,
+      "mode": "V2RAY",
+      "plan": "PREMIUM",
+      "latencyMs": 32,
+      "v2ray": {
+        "inbounds": [],
+        "outbounds": [
+          {
+            "protocol": "vmess",
+            "settings": {
+              "vnext": [
+                {
+                  "address": "premium1.seu-dominio.com",
+                  "port": 443,
+                  "users": [{ "id": "UUID-DO-CLIENTE", "alterId": 0, "security": "auto" }]
+                }
+              ]
+            },
+            "streamSettings": { "network": "ws", "security": "tls", "tlsSettings": { "serverName": "premium1.seu-dominio.com" } }
+          }
+        ]
+      }
+    }
+  ]
+}
